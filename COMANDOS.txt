@@ -1,0 +1,11 @@
+git clone https://github.com/Camilafabiani87/cd1807-Project-Ensuring-Quality-Releases.git
+cd cd1807-Project-Ensuring-Quality-Releases
+
+terraform plan -out solution.plan
+
+terraform apply
+
+terraform apply -lock=false
+
+
+correo listado e  problemas con la plataforma
